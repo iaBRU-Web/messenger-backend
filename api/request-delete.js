@@ -1,5 +1,5 @@
 // api/request-delete.js
-import { getUsers, saveUsers, getReports, saveReports } from './_blob.js';
+import { getUsers, saveUsers, getReports, saveReports } from './_store.js';
 import { requireAuth } from './_auth.js';
 
 export default async function handler(req, res) {
