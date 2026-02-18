@@ -1,5 +1,5 @@
 // api/logout.js
-import { getUsers, saveUsers } from './_blob.js';
+import { getUsers, saveUsers } from './_store.js';
 import { requireAuth } from './_auth.js';
 
 export default async function handler(req, res) {
