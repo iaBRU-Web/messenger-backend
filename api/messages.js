@@ -1,5 +1,5 @@
 // api/messages.js
-import { getMessages, saveMessages } from './_blob.js';
+import { getMessages, saveMessages } from './_store.js';
 import { requireAuth } from './_auth.js';
 
 export default async function handler(req, res) {
