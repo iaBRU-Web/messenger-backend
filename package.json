@@ -1,0 +1,14 @@
+{
+  "name": "brumessenger",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "ably": "^1.2.50",
+    "@vercel/blob": "^0.23.4",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
