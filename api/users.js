@@ -1,5 +1,5 @@
 // api/users.js
-import { getUsers } from './_blob.js';
+import { getUsers } from './_store.js';
 import { requireAuth } from './_auth.js';
 
 export default async function handler(req, res) {
